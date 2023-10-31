@@ -1,0 +1,221 @@
+
+
+.calbox {
+    background-color: black;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: flex-start; /* Align elements at the top */
+    align-items: center; /* Center horizontally */
+    position: relative;
+    top: 5%;
+  }
+ 
+  /* Apply responsive styling within the media query */
+  @media (max-width: 786px) {
+    .calbox {
+      width: 80%;
+      padding-bottom: 80%;
+    }
+  }
+  .title {
+    background-color: lightblue; /* Add your desired background color */
+    padding: 10px;
+    width: 15%;
+    position: absolute; /* Set the title to absolute positioning */
+    top: 5%; /* Position title at the top of the container */
+    left: 50%; /* Horizontally center the title */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
+    text-align: center; /* Center text within the title */
+    color: white;
+    font-size: 30px;
+  }
+  @media (max-width: 786px) {
+    .title {
+      width: 50%;
+      height: 7%;
+      
+    }
+  }
+  
+  .container {
+    background-image: url('https://images.ctfassets.net/mrop88jh71hl/51aQJZAkQT6RF0hkGUYi7R/59740af2ff82c2f0baec7c330fa0fa6a/how_to_make_a_calculator_in_pythin_calculator.jpg');
+    background-size: cover; /* Adjust the size as needed */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .calculator-display {
+    color: white;
+    font-size: 50px;
+  }
+  
+  
+  /* Define the default styles for the square box */
+  .square-box {
+    width: 100%;
+    height: 20%;
+   /* Set the background color as desired */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end; /* Align content at the left */
+    align-items: center; /* Center content vertically */
+  }
+ 
+  
+  /* Apply responsive styling for the square box */
+
+  /* Style for the number inside the square box */
+  .number {
+    color: white;
+    font-size: 46px; /* Adjust the font size as needed */
+     /* Add some padding for spacing */
+    padding-top:60%;
+   
+    
+    
+    
+
+  }
+  @media (max-width: 786px) {
+    .number{
+        padding-top:140%;
+    }
+
+  }
+  .entire{
+    background-color: green;
+    width: 30%;
+    height: 70%;
+    
+    
+  }
+  .square1 {
+    width: 100%;
+    height: 14%;
+    background-color: grey; /* Set a different background color for square1 */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end; /* Align content at the left */
+    align-items: center; /* Center content vertically */
+    top:40%; /* Position square1 below square-box */
+  }
+
+  .button1 {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: grey;
+    font-size: 25px;
+  }
+  .button2{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: orange;
+    font-size: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  @media (max-width: 786px) {
+    .square1 {
+      width: 100%;
+      height: 10%; /* Adjust the height to make it larger */
+      padding-bottom:auto;
+      top: 50%;
+
+    }
+  }
+  .square2 {
+    width: 100%;
+    height: 12%;
+    background-color: grey; /* Set a different background color for square2 */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 54%; /* Position square2 below square1 */
+    
+  }
+  @media (max-width: 786px) {
+    .square2 {
+      width: 100%;
+      height: 10%; /* Adjust the height to make it larger */
+      padding-bottom:auto;
+      top:60%;
+
+    }
+  }
+  .square3 {
+    width: 100%;
+    height: 12%;
+    background-color: grey; /* Set a different background color for square2 */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 66%; /* Position square2 below square1 */
+    
+  }
+  @media (max-width: 786px) {
+    .square3 {
+      width: 100%;
+      height: 10%; /* Adjust the height to make it larger */
+      padding-bottom:auto;
+      top: 70%;
+
+    }
+  }
+  .square4 {
+    width: 100%;
+    height: 12%;
+    background-color: grey; /* Set a different background color for square2 */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 78%; /* Position square2 below square1 */
+    
+  }
+  @media (max-width: 786px) {
+    .square4 {
+      width: 100%;
+      height: 10%; /* Adjust the height to make it larger */
+      padding-bottom:auto;
+      top: 80%;
+
+    }
+  }
+  .square5 {
+    width: 100%;
+    height: 12%;
+    background-color: grey; /* Set a different background color for square2 */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 90%; /* Position square2 below square1 */
+    
+
+  }
+  .button0{
+    width: 210%;
+    height: 100%;
+    color: white;
+    background-color: grey;
+    font-size: 25px;
+  }
+  @media (max-width: 786px) {
+    .square5 {
+      width: 100%;
+      height: 10%; /* Adjust the height to make it larger */
+      padding-bottom:auto;
+      top: 90%;
+
+    }
+  }
